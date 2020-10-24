@@ -1,0 +1,21 @@
+@import 'railwind';
+
+body {
+  @extend %bg-gray-100, %text-lg, %text-gray-900;
+}
+
+main {
+	@extend %container, %mx-auto, %max-w-xl, %p-8;
+}
+
+p {
+	@extend %mb-4;
+}
+
+.brand-name {
+	@extend %text-red-600, %text-5xl, %font-black, %tracking-tight;
+}
+
+.brand-slogan {
+	@extend %text-black, %font-serif, %text-4xl;
+}
